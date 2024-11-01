@@ -11,24 +11,25 @@ export const metadata = {
 const LayoutProfesseurs = ({ children }) => {
   return (
     <html>
-      <head>
+      {/* <head>
         <script src="https://unpkg.com/react/umd/react.production.min.js"></script>
         <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/recharts/2.12.7/Recharts.min.js"></script>
-      </head>
+      </head> */}
       <body>
         <div className="h-screen flex">
           <div className="md:w-[8%] xl:w-[14%] ">
-            <div className="gradient" />
             <Link className="flex items-center justify-center gap-2" href="/">
               {/* <Image src={null} alt="logo" width={32} height={32} /> */}
               <span className="hidden lg:block font-semibold text-center">
                 ENSPD Management System
               </span>
             </Link>
+
             <Menu />
           </div>
-          <div className="md:w-[92%] lg:w-[86%]  xl:w-[86%] bg-[#F7F8FA] overflow-scroll">
+          <div className="md:w-[92%] lg:w-[86%]  xl:w-[86%] bg-[#F7F8FA] ">
+            {/* <div className="gradient" /> */}
             <Navbar />
             {children}
           </div>

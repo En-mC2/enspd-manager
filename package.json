@@ -9,8 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@syncfusion/ej2": "^27.1.55",
+    "@syncfusion/ej2-react-calendars": "^27.1.55",
+    "@syncfusion/ej2-react-charts": "^27.1.55",
+    "@syncfusion/ej2-react-dropdowns": "^27.1.55",
+    "@syncfusion/ej2-react-grids": "^27.1.55",
+    "@syncfusion/ej2-react-inputs": "^27.1.55",
+    "@syncfusion/ej2-react-kanban": "^27.1.53",
+    "@syncfusion/ej2-react-popups": "^27.1.55",
+    "@syncfusion/ej2-react-richtexteditor": "^27.1.55",
+    "@syncfusion/ej2-react-schedule": "^27.1.55",
+    "moment": "^2.30.1",
     "next": "14.2.5",
     "react": "^18",
+    "react-big-calendar": "^1.15.0",
+    "react-calendar": "^5.0.0",
     "react-dom": "^18",
     "recharts": "^2.13.0"
   },
